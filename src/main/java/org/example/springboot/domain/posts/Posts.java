@@ -3,6 +3,7 @@ package org.example.springboot.domain.posts;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import org.example.springboot.domain.BaseTimeEntity;
 
 import javax.persistence.*;
 

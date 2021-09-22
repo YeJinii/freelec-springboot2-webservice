@@ -30,4 +30,7 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-data-jpa')
     compile('com.h2database:h2')
     testCompile('org.springframework.boot:spring-boot-starter-test')
+
+    //머스테치 스타터 의존성
+    compile('org.springframework.boot:spring-boot-starter-mustache')
 }
