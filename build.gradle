@@ -41,4 +41,7 @@ dependencies {
     compile('org.springframework.session:spring-session-jdbc')
 
     testCompile("org.springframework.security:spring-security-test")
+
+    //MariaDB 드라이버 등록
+    compile("org.mariadb.jdbc:mariadb-java-client")
 }

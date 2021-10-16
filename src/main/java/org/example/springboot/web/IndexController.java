@@ -24,7 +24,7 @@ public class IndexController {
         model.addAttribute("posts", postsService.findAllDesc());
 
         if(user != null){
-            model.addAttribute("userName", user.getName());
+            model.addAttribute("user", user);
         }
         return "index"; //index.mustache 호출
     }
